@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 4 - Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous">
+    <style>
+      .item {
+        border: 1px solid black;
+        background-color: rgb(207, 204, 204);
+        box-sizing: border-box;
+        padding: 10px;
+            }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="d-flex flex-row">
+          <div class="p-2">
+              <picture>
+                  <source media="(min-width: 768px)" srcset="img/logo-with-text.png">
+                  <img srcset="img/logo-img.png" alt="Logo">
+              </picture>
+              <h1 class="text-hide">Sample Text</h1>
+          </div>
+          <div class="p-3 item ml-auto align-self-center">Menu</div>
+      </nav>
+    
+      <div class="d-flex row align-items-stretch">      
+          <div class="col-12 col-md-4">
+            <div class="item">
+              <h4>Titulo</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, officiis.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, officiis.</p>
+            </div>
+            <br>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="item">
+              <h4>Titulo</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, officiis.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, officiis.</p>
+            </div>
+            <br>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="item">
+              <h4>Titulo</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, officiis.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, officiis.</p>
+            </div>
+            <br>
+          </div>
+      </div>
+      <br>
+      <div class="d-flex row">
+            <div class="col">
+                <div class="item d-flex justify-content-between">
+                  <h4>Chamada super foda</h4>
+                  <a href="" class="align-self-center">saiba mais</a>
+                </div>
+          </div>
+      </div>
+      <br>
+    <footer class="d-flex row">
+        <div class="col">
+            <p class="item text-center">Rodapé</p>
+        </div>
+    </footer>
+  </div>
+  </div>
+  </body>
+</html>
